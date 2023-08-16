@@ -69,9 +69,8 @@ After the server is runned open your brower and browse to the following address:
 
 ### 3. Kevine Mugisha
 
-- GitHub: [Junior Hirwa](https://github.com/Kevinemug)
--
-- LinkedIn: [Junior Hirwa](https://www.linkedin.com/in/kevine-mugisha-b7387b230/)
+- GitHub: [ Kevinemug](https://github.com/Kevinemug)
+- LinkedIn: [Mugisha Kevine](https://www.linkedin.com/in/kevine-mugisha-b7387b230/)
 
 
 ### 4. Ange Karara
