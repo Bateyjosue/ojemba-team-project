@@ -20,22 +20,22 @@ Is the team project for the ojemba website
 - vite
 
 ## Getting Started
-![](https://img.shields.io/github/issues/Bateyjosue/ojemba-website)
-![](https://img.shields.io/github/forks/Bateyjosue/ojemba-website)
-![](https://img.shields.io/github/stars/Bateyjosue/ojemba-website)
-![](https://img.shields.io/github/license/Bateyjosue/ojemba-website)
-![]([https://img.shields.io/github/issues/Bateyjosue/ojemba-website](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FBateyjosue%2Fbateyjosue.me))
+![](https://img.shields.io/github/issues/Bateyjosue/ojemba-team-project)
+![](https://img.shields.io/github/forks/Bateyjosue/ojemba-team-project)
+![](https://img.shields.io/github/stars/Bateyjosue/ojemba-team-project)
+![](https://img.shields.io/github/license/Bateyjosue/ojemba-team-project)
+![]([https://img.shields.io/github/issues/Bateyjosue/ojemba-team-project](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FBateyjosue%2Fbateyjosue.me))
 
 ## Prerequisites
 
 ### Setup
 [-] Clone the repository:
 
-    $ git clone https://github.com/Bateyjosue/ojemba-website.git`
+    $ git clone https://github.com/Bateyjosue/ojemba-team-project.git`
 
 [-] Navigate into the project folder
 
-    $ cd ojemba-website
+    $ cd ojemba-team-project
 
 [-] Install dependencies of the project using `npm` package manager
 
