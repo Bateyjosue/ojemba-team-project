@@ -70,6 +70,9 @@ After the server is runned open your brower and browse to the following address:
 ### 3. Kevine Mugisha
 
 ### 4. Ange Karara
+- GitHub: [Junior Hirwa](https://github.com/Angekarara)
+- Twitter: [mbabazi kararara ange](https://twitter.com/KararaAnge15844)
+- LinkedIn: [Ange mbabazi](https://www.linkedin.com/in/ange-mbabazi-38372b238/)
 
 
 ## Acknowledgement
