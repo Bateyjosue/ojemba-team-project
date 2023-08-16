@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        montBold: "montserratBold",
+        montMedium: "montserratMedium",
+        montRegular: "montserratRegular"
+      }
+    },
   },
   plugins: [],
 }
