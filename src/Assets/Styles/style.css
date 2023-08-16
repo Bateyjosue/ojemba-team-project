@@ -25,3 +25,16 @@
     font-family: robotoBold;
     src: url('../fonts/Montserrat-Bold.ttf');
 }
+@font-face {
+    font-family: ralewayBold;
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+font-family: ralewaySemiBold;
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+font-family: ralewayRegular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+

@@ -11,7 +11,10 @@ export default {
         montMedium: "montserratMedium",
         montRegular: "montserratRegular",
         robotoBlack: "robotoBlack",
-        robotoBold: "robotoBold"
+        robotoBold: "robotoBold",
+        ralewayBold: "ralewayBold",
+        ralewayRegular: "ralewayRegular",
+        relewaySemiBold: "releewaySemiBold"
       }
     },
   },
