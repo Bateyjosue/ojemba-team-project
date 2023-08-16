@@ -14,7 +14,7 @@ export default {
         robotoBold: "robotoBold",
         ralewayBold: "ralewayBold",
         ralewayRegular: "ralewayRegular",
-        relewaySemiBold: "releewaySemiBold"
+        relewaySemiBold: "relewaySemiBold"
       }
     },
   },
