@@ -9,7 +9,9 @@ export default {
       fontFamily: {
         montBold: "montserratBold",
         montMedium: "montserratMedium",
-        montRegular: "montserratRegular"
+        montRegular: "montserratRegular",
+        robotoBlack: "robotoBlack",
+        robotoBold: "robotoBold"
       }
     },
   },
