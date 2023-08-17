@@ -9,6 +9,7 @@ const loadComponents = (id, url) =>  {
 }
 
 window.onload = () => {
-    loadComponents('header', 'src/sections/header.html');
+    loadComponents('header', 'src/Components/header.html');
+    loadComponents('footer', 'src/Components/footer.html');
     
 }
