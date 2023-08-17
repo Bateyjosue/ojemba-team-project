@@ -20,7 +20,8 @@ export default {
         primary: "#8ACC50",
         secondary: "#001342",
         primarydarker: "#116355",
-        darkergray: "#7F7F7F"
+        darkergray: "#7F7F7F",
+        yellowlighter: "#f4ba00"
       }
     },
   },
