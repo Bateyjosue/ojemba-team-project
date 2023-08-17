@@ -15,6 +15,11 @@ export default {
         ralewayBold: "ralewayBold",
         ralewayRegular: "ralewayRegular",
         relewaySemiBold: "relewaySemiBold"
+      },
+      colors: {
+        primary: "#8ACC50",
+        secondary: "#001342",
+        primarydarker: "#116355",
       }
     },
   },
