@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js, html}"
+    "./src/**/*.{js}"
   ],
   theme: {
     extend: {
@@ -21,7 +21,8 @@ export default {
         secondary: "#001342",
         primarydarker: "#116355",
         darkergray: "#7F7F7F",
-        yellowlighter: "#f4ba00"
+        primaryLinear: "#8ACC50"
+      }
     },
   },
   plugins: [],
