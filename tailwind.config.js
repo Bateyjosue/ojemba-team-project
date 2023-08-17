@@ -22,7 +22,6 @@ export default {
         primarydarker: "#116355",
         darkergray: "#7F7F7F",
         yellowlighter: "#f4ba00"
-      }
     },
   },
   plugins: [],
