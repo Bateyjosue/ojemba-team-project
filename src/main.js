@@ -14,4 +14,5 @@ window.onload = () => {
     loadComponents('button__skillset', 'src/Components/button.html');
     loadComponents('expand', 'src/Components/expand.html');
     loadComponents('textWithLine', 'src/Components/textWithLine.html');
+    loadComponents('skillset', 'src/Components/skillset.html');
 }
