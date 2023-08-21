@@ -53,7 +53,7 @@ font-family: ralewayRegular;
         font-size: 20px;
         font-family: 'ralewaySemiBold';
 }
-
+}
 @layer components {
     .wrapper-lg{
        @apply container mx-auto max-w-[1662px] px-[130px]
