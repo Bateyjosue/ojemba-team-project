@@ -42,6 +42,7 @@ font-family: ralewayRegular;
     .content{
         height: 180px;
     }
+
     .button {
         /* bg-white text-secondary px-4 py-1 rounded-[25px] h-[50px] text-[20px] font-relewaySemiBold */
         background: white;
@@ -51,5 +52,10 @@ font-family: ralewayRegular;
         height: 50px;
         font-size: 20px;
         font-family: 'ralewaySemiBold';
+}
+
+@layer components {
+    .wrapper-lg{
+       @apply container mx-auto max-w-[1662px] px-[130px]
     }
 }
