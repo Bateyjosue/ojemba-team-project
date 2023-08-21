@@ -22,7 +22,9 @@ export default {
         primarydarker: "#116355",
         darkest:'#3f6747',
         darkergray: "#7F7F7F",
-        primaryLinear: "#8ACC50"
+        primaryLinear: "#8ACC50",
+        darkest:'#3f6747',
+        yellowlighter: '#F4BA00'
       }
     },
   },
