@@ -12,5 +12,7 @@ window.onload = () => {
     loadComponents('header', 'src/Components/header.html');
     loadComponents('main', 'src/Components/hero.html');
     loadComponents('footer', 'src/Components/footer.html');
-    
+    loadComponents('button__skillset', 'src/Components/button.html');
+    loadComponents('expand', 'src/Components/expand.html');
+    loadComponents('textWithLine', 'src/Components/textWithLine.html');
 }

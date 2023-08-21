@@ -38,3 +38,8 @@ font-family: ralewayRegular;
     src: url('../fonts/Montserrat-Regular.ttf');
 }
 
+@layer utilities{
+    .content{
+        height: 180px;
+    }
+}
