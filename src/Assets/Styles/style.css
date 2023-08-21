@@ -43,3 +43,9 @@ font-family: ralewayRegular;
         height: 180px;
     }
 }
+
+@layer components {
+    .wrapper-lg{
+       @apply container mx-auto max-w-[1662px] px-[130px]
+    }
+}
