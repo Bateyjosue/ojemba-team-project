@@ -15,6 +15,7 @@ window.onload = () => {
     loadComponents('maibornWolf', 'src/Components/maibornWolf.html');
     loadComponents('footer', 'src/Components/footer.html');
     loadComponents('button__skillset', 'src/Components/button.html');
+    loadComponents('unsere-teams', 'src/Components/unsere.html');
     loadComponents('ruanda', 'src/Components/ruanda.html');
     loadComponents('managedTeams', 'src/Components/managedTeams.html')
     loadComponents('kotakt', 'src/Components/kotakt.html');
