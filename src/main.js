@@ -14,6 +14,7 @@ window.onload = () => {
     loadComponents('header', 'src/Components/header.html');
     loadComponents('hero', 'src/Components/hero.html');
 loadComponents('icon-section', 'src/Components/sectionWithIcons.html');
+loadComponents('maibornWolf', 'src/Components/maibornWolf.html');
     loadComponents('footer', 'src/Components/footer.html');
     loadComponents('button__skillset', 'src/Components/button.html');
     // loadComponents('textWithLine', 'src/Components/textWithLine.html');
