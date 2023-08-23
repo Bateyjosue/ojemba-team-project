@@ -4,8 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ojemba | Team 5 </title>
+    <title>Ojemba | Team 5</title>
+    
   </head>
+  <script>
+    const loadComponents = (id, url) =>  {
+      fetch(url)
+      .then((response) => response.text())
+      .then((html) => {
+          document.getElementById(id).innerHTML = html;
+      });
+    }
+    
+    window.onload = () => {
+        loadComponents('header', './src/Components/header.html');
+        loadComponents('hero', './src/Components/hero.html');
+        loadComponents('icon-section', './src/Components/sectionWithIcons.html');
+        loadComponents('maibornWolf', './src/Components/maibornWolf.html');
+        loadComponents('footer', './src/Components/footer.html');
+        loadComponents('unsere-teams', './src/Components/unsere.html');
+        loadComponents('ruanda', './src/Components/ruanda.html');
+        loadComponents('managedTeams', './src/Components/managedTeams.html')
+        loadComponents('kotakt', './src/Components/kotakt.html');
+        loadComponents('footer', './src/Components/footer.html');
+    }
+  </script>
   <body class="overflow-x-hidden bg-gradient-to-r from-secondary to-darkest ">
 
     <header id="header" class=" wrapper-sm lg:wrapper-lg"></header>
