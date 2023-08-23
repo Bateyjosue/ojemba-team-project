@@ -24,11 +24,16 @@ const expandLessMore2 = (event) => {
 }
 
 const kotakt = document.querySelector('main #kotakt');
+const managedTeams = document.querySelector('main #managedTeams');
 const qualitat = document.querySelector('main #qualitat-section');
 
 kotakt.addEventListener('click', (event) => {
     expandLessMore(event)
 });
+
+managedTeams.addEventListener('click', (event) => {
+    expandLessMore(event)
+})
 
 qualitat .addEventListener('click', (event) => {
     expandLessMore2(event)
