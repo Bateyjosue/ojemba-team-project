@@ -59,6 +59,6 @@ font-family: ralewayRegular;
        @apply container mx-auto max-w-[1662px] px-[130px]
     }
     .wrapper-sm{
-       @apply container mx-auto  px-[30px]
+       @apply container mx-auto max-w-[100%]  px-[30px]
     }
 }
