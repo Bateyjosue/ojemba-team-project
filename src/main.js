@@ -1,5 +1,25 @@
 import './Assets/Styles/style.css';
+const loadComponents = (id, url) =>  {
+    fetch(url)
+    .then((response) => response.text())
+    .then((html) => {
+        document.getElementById(id).innerHTML = html;
+    });
+}
 
+window.onload = () => {
+    loadComponents('header', 'src/Components/header.html');
+    loadComponents('hero', 'src/Components/hero.html');
+    loadComponents('icon-section', 'src/Components/sectionWithIcons.html');
+    loadComponents('maibornWolf', 'src/Components/maibornWolf.html');
+    loadComponents('footer', 'src/Components/footer.html');
+    loadComponents('unsere-teams', 'src/Components/unsere.html');
+    loadComponents('ruanda', 'src/Components/ruanda.html');
+    loadComponents('qualitat-section', 'src/Components/qualitat.html');
+    loadComponents('managedTeams', 'src/Components/managedTeams.html')
+    loadComponents('kotakt', 'src/Components/kotakt.html');
+    loadComponents('footer', 'src/Components/footer.html');
+}
 const expandLessMore = (event) => {
     if (event.target.className === 'plus'){
         event.target.setAttribute('src', '/src/Assets/media/Minus-icon.svg')
