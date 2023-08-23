@@ -5,8 +5,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
+        entry: resolve(__dirname, 'index.html'),
         header: resolve(__dirname, 'src/Components/header.html'),
-            hero: resolve(__dirname, 'src/Components/hero.html'),
+        hero: resolve(__dirname, 'src/Components/hero.html'),
       },
     },
   },
