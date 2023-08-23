@@ -9,22 +9,17 @@ const loadComponents = (id, url) =>  {
 }
 
 window.onload = () => {
-    loadComponents('header', 'src/Components/header.html');
-    loadComponents('hero', 'src/Components/hero.html');
-    loadComponents('icon-section', 'src/Components/sectionWithIcons.html');
-    loadComponents('maibornWolf', 'src/Components/maibornWolf.html');
-    loadComponents('footer', 'src/Components/footer.html');
-    loadComponents('button__skillset', 'src/Components/button.html');
-    loadComponents('unsere-teams', 'src/Components/unsere.html');
-
+    loadComponents('header', './src/Components/header.html');
+    loadComponents('hero', './src/Components/hero.html');
+    loadComponents('icon-section', './src/Components/sectionWithIcons.html');
+    loadComponents('maibornWolf', './src/Components/maibornWolf.html');
+    loadComponents('footer', './src/Components/footer.html');
+    loadComponents('unsere-teams', './src/Components/unsere.html');
+    loadComponents('ruanda', './src/Components/ruanda.html');
+    loadComponents('managedTeams', './src/Components/managedTeams.html')
     loadComponents('qualitat-section', 'src/Components/qualitat.html');
-    // loadComponents('textWithLine', 'src/Components/textWithLine.html');
-
-
-    loadComponents('ruanda', 'src/Components/ruanda.html');
-    loadComponents('managedTeams', 'src/Components/managedTeams.html')
-    loadComponents('kotakt', 'src/Components/kotakt.html');
-    loadComponents('footer', 'src/Components/footer.html');
+    loadComponents('kotakt', './src/Components/kotakt.html');
+    loadComponents('footer', './src/Components/footer.html');
 }
 
 const expandLessMore = (event) => {
@@ -51,14 +46,12 @@ const expandLessMore2 = (event) => {
 }
 
 const kotakt = document.querySelector('main #kotakt');
+const qualitat = document.querySelector('main #qualitat-section');
 
 kotakt.addEventListener('click', (event) => {
     expandLessMore(event)
 });
 
-const qualitat = document.querySelector('main #qualitat-section');
-
 qualitat .addEventListener('click', (event) => {
     expandLessMore2(event)
 });
-
