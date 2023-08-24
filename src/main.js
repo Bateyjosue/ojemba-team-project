@@ -56,6 +56,18 @@ managedTeams.addEventListener('click', (event) => {
     expandLessMore(event)
 })
 
-qualitat .addEventListener('click', (event) => {
+qualitat.addEventListener('click', (event) => {
     expandLessMore2(event)
+});
+
+managedTeams.addEventListener('click', (event) => {
+    if(event.target.classList.contains('expand-more')){
+        event.target.setAttribute('src','/src/Assets/media/Expand-less-icon.svg')
+        event.target.setAttribute('class','expand-less')
+        event.target.parentNode.nextElementSibling.style['display'] = 'block';
+    }else if(event.target.classList.contains('expand-less')){
+        event.target.setAttribute('src','/src/Assets/media/Expand-more-icon.svg')
+        event.target.setAttribute('class','expand-more')
+        event.target.parentNode.nextElementSibling.style['display'] = 'none';
+    }
 });
