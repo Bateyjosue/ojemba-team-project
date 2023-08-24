@@ -52,7 +52,13 @@ font-family: ralewayRegular;
         height: 50px;
         font-size: 20px;
         font-family: 'ralewaySemiBold';
-}
+    }
+    .bg-founders {
+        background-image: url('/src/Assets/media/hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 @layer components {
     .wrapper-lg{
