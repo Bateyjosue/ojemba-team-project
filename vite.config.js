@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-         main: resolve(__dirname, 'index.html'),
+        main: resolve(__dirname, 'index.html'),
         header:resolve(__dirname,"src/Components/header.html"),
         hero:resolve(__dirname,'src/Components/hero.html'),
         button: resolve(__dirname, 'src/Components/button.html'),
