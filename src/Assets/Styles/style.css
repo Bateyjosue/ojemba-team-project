@@ -61,4 +61,14 @@ font-family: ralewayRegular;
     .wrapper-sm{
        @apply container mx-auto max-w-[100%]  px-[30px]
     }
+    #header {
+        background-color: transparent; /* Initial background color */
+        transition: background-color 0.3s ease; /* Smooth transition effect */
+    }
+
+    #header.scrolled {
+        background-color: red; /* Background color when scrolled */
+    }
 }
+
+

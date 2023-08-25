@@ -33,3 +33,11 @@ kotakt.addEventListener('click', (event) => {
 qualitat .addEventListener('click', (event) => {
     expandLessMore2(event)
 });
+window.addEventListener("scroll", function() {
+    var header = document.getElementById("header #header");
+    if (window.scrollY > 0) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+});
