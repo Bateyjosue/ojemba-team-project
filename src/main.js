@@ -15,7 +15,7 @@ window.onload = () => {
     loadComponents('footer', 'src/Components/footer.html');
     loadComponents('unsere-teams', 'src/Components/unsere.html');
     loadComponents('ruanda', 'src/Components/ruanda.html');
-    loadComponents('qualitat-section', 'src/Components/qualitat.html');
+    loadComponents('qualitat', 'src/Components/qualitat.html');
     loadComponents('managedTeams', 'src/Components/managedTeams.html')
     loadComponents('kotakt', 'src/Components/kotakt.html');
     loadComponents('footer', 'src/Components/footer.html');
