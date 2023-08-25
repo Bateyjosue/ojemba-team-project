@@ -20,7 +20,9 @@ export default defineConfig({
         skillset:resolve(__dirname,"src/Components/skillset.html"),
         textWithLine:resolve(__dirname,"src/Components/textWithLine.html"),
         unsere:resolve(__dirname,"src/Components/unsere.html"),
-        footer: resolve(__dirname,"src/Components/footer.html")
+        footer: resolve(__dirname,"src/Components/footer.html"),
+        founders:resolve(__dirname,"src/Components/founderss.html"),
+        qualitat:resolve(__dirname, "src/Components/qualitat.html"),
       },
     },
   },
