@@ -19,7 +19,7 @@ window.onload = () => {
     loadComponents('managedTeams', 'src/Components/managedTeams.html')
     loadComponents('kotakt', 'src/Components/kotakt.html');
     loadComponents('footer', 'src/Components/footer.html');
-    loadComponents('founders', 'src/components/founderss.html');
+    loadComponents('founders', 'src/Components/founderss.html');
 }
 const expandLessMore = (event) => {
     if (event.target.className === 'plus'){
