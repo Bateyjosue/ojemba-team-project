@@ -70,13 +70,3 @@ qualitat.addEventListener('click', (event) => {
     expandLessMore2(event)
 });
 
-// managedTeams.addEventListener('click', (event) => {
-//     console.log('Managed Africa team clicked');
-//     if(event.target.textContent === 'expand_more'){
-//         event.target.textContent  = 'expand_less'
-//         event.target.parentNode.nextElementSibling.style['display'] = 'block';
-//     }else if(event.target.textContent === 'expand_less'){
-//         event.target.textContent  = 'expand_more'
-//         event.target.parentNode.nextElementSibling.style['display'] = 'none';
-//     }
-// });
