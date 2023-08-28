@@ -62,7 +62,7 @@ font-family: ralewayRegular;
 }
 @layer components {
     .wrapper-lg{
-       @apply container mx-auto max-w-[1662px] px-[130px]
+       @apply container mx-auto max-w-[1662px] px-[80px]
     }
     .wrapper-sm{
        @apply container mx-auto max-w-[100%]  px-[30px]
