@@ -22,16 +22,25 @@ window.onload = () => {
     loadComponents('founders', 'src/Components/founderss.html');
 }
 const expandLessMore = (event) => {
-    if (event.target.className === 'plus'){
-        event.target.setAttribute('src', '/src/Assets/media/Minus-icon.svg')
-        event.target.setAttribute('class', 'minus')
+    if (event.target.textContent === 'add'){
+        event.target.textContent = 'remove'
         event.target.parentNode.nextSibling.nextElementSibling.style['display'] = 'block'
-    } else if (event.target.className === 'minus'){
-    event.target.setAttribute('src', '/src/Assets/media/Plus-icon.svg')
-        event.target.setAttribute('class', 'plus')
+    }else if (event.target.textContent === 'remove'){
+        event.target.textContent = 'add'
         event.target.parentNode.nextSibling.nextElementSibling.style['display'] = 'none'
     }
+    if(event.target.textContent === 'expand_more'){
+        event.target.textContent  = 'expand_less'
+        event.target.parentNode.nextElementSibling.style['display'] = 'block';
+    }else if(event.target.textContent === 'expand_less'){
+        event.target.textContent  = 'expand_more'
+        event.target.parentNode.nextElementSibling.style['display'] = 'none';
+    }
+    else{
+        console.log('Managed Africa team clicked');
+    }
 }
+const skillBTN = (content) => `<button type="button">${content}</button>`;
 const expandLessMore2 = (event) => {
     if (event.target.className === 'plus2'){
         event.target.setAttribute('src', '/src/Assets/media/minus.svg')
@@ -42,11 +51,15 @@ const expandLessMore2 = (event) => {
     event.target.setAttribute('class', 'plus2')
         event.target.parentNode.nextSibling.nextElementSibling.style['display'] = 'none'
     }
+    
 }
 
 const kotakt = document.querySelector('main #kotakt');
 const managedTeams = document.querySelector('main #managedTeams');
 const qualitat = document.querySelector('main #qualitat-section');
+const skillContainer = document.querySelector('main #skillset-section #skills-btn');
+const btns = document.querySelector('main #skillset-section #skillset > #skills-btn');
+const skills = ['JWT','CSS','frontend archite','Figma', 'Next.JS', 'ORM', 'Prisma','GraphQL', 'CI/CD', 'Scrum Framework', 'Typescript','Javascript','React','REST APIs','Redux','test driven development', 'Data modeling'];
 
 kotakt.addEventListener('click', (event) => {
     expandLessMore(event)
@@ -56,18 +69,8 @@ managedTeams.addEventListener('click', (event) => {
     expandLessMore(event)
 })
 
+skills.map((skill) => skillContainer.innerHTML += `<button class="button">${skill}</button>`)
+
 qualitat.addEventListener('click', (event) => {
     expandLessMore2(event)
-});
-
-managedTeams.addEventListener('click', (event) => {
-    if(event.target.classList.contains('expand-more')){
-        event.target.setAttribute('src','/src/Assets/media/Expand-less-icon.svg')
-        event.target.setAttribute('class','expand-less')
-        event.target.parentNode.nextElementSibling.style['display'] = 'block';
-    }else if(event.target.classList.contains('expand-less')){
-        event.target.setAttribute('src','/src/Assets/media/Expand-more-icon.svg')
-        event.target.setAttribute('class','expand-more')
-        event.target.parentNode.nextElementSibling.style['display'] = 'none';
-    }
 });
