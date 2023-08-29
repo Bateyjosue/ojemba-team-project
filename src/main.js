@@ -40,6 +40,7 @@ const expandLessMore = (event) => {
         console.log('Managed Africa team clicked');
     }
 }
+const skillBTN = (content) => `<button type="button">${content}</button>`;
 const expandLessMore2 = (event) => {
     if (event.target.className === 'plus2'){
         event.target.setAttribute('src', '/src/Assets/media/minus.svg')
@@ -56,7 +57,9 @@ const expandLessMore2 = (event) => {
 const kotakt = document.querySelector('main #kotakt');
 const managedTeams = document.querySelector('main #managedTeams');
 const qualitat = document.querySelector('main #qualitat-section');
-
+const skillContainer = document.querySelector('main #skillset-section #skills-btn');
+const btns = document.querySelector('main #skillset-section #skillset > #skills-btn');
+const skills = ['JWT','CSS','frontend archite','Figma', 'Next.JS', 'ORM', 'Prisma','GraphQL', 'CI/CD', 'Scrum Framework', 'Typescript','Javascript','React','REST APIs','Redux','test driven development', 'Data modeling'];
 
 kotakt.addEventListener('click', (event) => {
     expandLessMore(event)
@@ -66,7 +69,8 @@ managedTeams.addEventListener('click', (event) => {
     expandLessMore(event)
 })
 
+skills.map((skill) => skillContainer.innerHTML += `<button class="button">${skill}</button>`)
+
 qualitat.addEventListener('click', (event) => {
     expandLessMore2(event)
 });
-
