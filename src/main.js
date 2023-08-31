@@ -42,21 +42,18 @@ const expandLessMore = (event) => {
 }
 const skillBTN = (content) => `<button type="button">${content}</button>`;
 const expandLessMore2 = (event) => {
-    if (event.target.className === 'plus2'){
-        event.target.setAttribute('src', '/src/Assets/media/minus.svg')
-        event.target.setAttribute('class', 'minus2')
+    if (event.target.textContent === 'add'){
+        event.target.textContent = 'remove'
         event.target.parentNode.nextSibling.nextElementSibling.style['display'] = 'block'
-    }else if (event.target.className === 'minus2'){
-        event.target.setAttribute('src', '/src/Assets/media/plusI.svg')
-    event.target.setAttribute('class', 'plus2')
+    }else if (event.target.textContent === 'remove'){
+        event.target.textContent = 'add'
         event.target.parentNode.nextSibling.nextElementSibling.style['display'] = 'none'
     }
-    
 }
 
 const kotakt = document.querySelector('main #kotakt');
 const managedTeams = document.querySelector('main #managedTeams');
-const qualitat = document.querySelector('main #qualitat-section');
+const qualitat = document.querySelector('main #qualitat');
 const skillContainer = document.querySelector('main #skillset-section #skills-btn');
 const btns = document.querySelector('main #skillset-section #skillset > #skills-btn');
 const skills = ['JWT','CSS','frontend archite','Figma', 'Next.JS', 'ORM', 'Prisma','GraphQL', 'CI/CD', 'Scrum Framework', 'Typescript','Javascript','React','REST APIs','Redux','test driven development', 'Data modeling'];
