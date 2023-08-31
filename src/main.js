@@ -1,4 +1,4 @@
-import './Assets/Styles/style.css';
+import './assets/Styles/style.css';
 const loadComponents = (id, url) =>  {
     fetch(url)
     .then((response) => response.text())
@@ -8,18 +8,18 @@ const loadComponents = (id, url) =>  {
 }
 
 window.onload = () => {
-    loadComponents('header', 'src/Components/header.html');
-    loadComponents('hero', 'src/Components/hero.html');
-    loadComponents('icon-section', 'src/Components/sectionWithIcons.html');
-    loadComponents('maibornWolf', 'src/Components/maibornWolf.html');
-    loadComponents('footer', 'src/Components/footer.html');
-    loadComponents('unsere-teams', 'src/Components/unsere.html');
-    loadComponents('ruanda', 'src/Components/ruanda.html');
-    loadComponents('qualitat', 'src/Components/qualitat.html');
-    loadComponents('managedTeams', 'src/Components/managedTeams.html')
-    loadComponents('kotakt', 'src/Components/kotakt.html');
-    loadComponents('footer', 'src/Components/footer.html');
-    loadComponents('founders', 'src/Components/founders.html');
+    loadComponents('header', 'src/components/header.html');
+    loadComponents('hero', 'src/components/hero.html');
+    loadComponents('icon-section', 'src/components/sectionWithIcons.html');
+    loadComponents('maibornWolf', 'src/components/maibornWolf.html');
+    loadComponents('footer', 'src/components/footer.html');
+    loadComponents('unsere-teams', 'src/components/unsere.html');
+    loadComponents('ruanda', 'src/components/ruanda.html');
+    loadComponents('qualitat', 'src/components/qualitat.html');
+    loadComponents('managedTeams', 'src/components/managedTeams.html')
+    loadComponents('kotakt', 'src/components/kotakt.html');
+    loadComponents('footer', 'src/components/footer.html');
+    loadComponents('founders', 'src/components/founders.html');
 }
 const expandLessMore = (event) => {
     if (event.target.textContent === 'add'){

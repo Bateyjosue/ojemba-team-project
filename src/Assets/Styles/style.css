@@ -54,7 +54,7 @@ font-family: ralewayRegular;
         font-family: 'ralewaySemiBold';
     }
     .bg-founders {
-        background-image: url('/src/Assets/media/hero.png');
+        background-image: url('/src/assets/media/hero.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

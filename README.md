@@ -3,15 +3,6 @@
 # Project: ojemba-website
 
 Is the team project for the ojemba website
-
-<!-- 
-<table align="center">
- <tr>
-  <td>
-   <img src="./assets/mock.png" />
-  </td>
- </tr>
-</table> -->
 ## Built With
 
 - HTML
