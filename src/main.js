@@ -1,4 +1,4 @@
-import './assets/Styles/style.css';
+import '/assets/Styles/style.css';
 const loadComponents = (id, url) =>  {
     fetch(url)
     .then((response) => response.text())
