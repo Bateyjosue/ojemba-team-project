@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: montserratBold ;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: montserratMedium ;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: montserratRegular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: robotoBlack;
+    src: url('../fonts/Roboto-Black.ttf');
+}
+@font-face {
+    font-family: robotoBold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: ralewayBold;
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+@font-face {
+font-family: ralewaySemiBold;
+    src: url('../fonts/Raleway-SemiBold.ttf');
+}
+@font-face {
+font-family: ralewayRegular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@layer utilities{
+    .content{
+        height: 180px;
+    }
+
+    .button {
+        background: white;
+        padding: 4px 16px;
+        color: #001342;
+        border-radius: 25px;
+        height: 50px;
+        font-size: 20px;
+        font-family: 'ralewaySemiBold';
+    }
+    .bg-founders {
+        background-image: url('/src/assets/media/hero.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@layer components {
+    .wrapper-lg{
+        @apply container mx-auto max-w-[1662px] px-[80px]
+    }
+    .wrapper-sm{
+        @apply container mx-auto max-w-[100%]  px-[30px]
+    }
+}
